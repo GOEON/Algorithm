@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BJ_1722_순열의순서.cpp">
+    <ClCompile Include="BJ_1476_날짜계산.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

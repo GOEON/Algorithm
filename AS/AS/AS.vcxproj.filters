@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BJ_1107_리모컨.cpp">
+    <ClCompile Include="BJ_9095_123더하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

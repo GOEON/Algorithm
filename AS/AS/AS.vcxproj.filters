@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SWEA_4012_요리사.cpp">
+    <ClCompile Include="SWEA_4013_특이한자석.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

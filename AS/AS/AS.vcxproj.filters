@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SWEA_4008_숫자만들기.cpp">
+    <ClCompile Include="SWEA_5644_무선충전.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

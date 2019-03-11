@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BJ_9019_DSLR.cpp">
+    <ClCompile Include="BJ_1525_퍼즐.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

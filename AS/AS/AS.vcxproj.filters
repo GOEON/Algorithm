@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BJ_17070_파이프옮기기1.cpp">
+    <ClCompile Include="BJ_16987_계란으로바위치기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

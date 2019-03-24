@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SWEA_5658_보물상자비밀번호.cpp">
+    <ClCompile Include="SWEA_5648_원자소멸시뮬레이션.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

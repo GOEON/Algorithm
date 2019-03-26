@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BJ_16933_벽부수고이동하기3.cpp">
+    <ClCompile Include="BJ_16946_벽부수고이동하기4.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

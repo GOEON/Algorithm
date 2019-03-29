@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BJ_16932_모양만들기.cpp">
+    <ClCompile Include="SWEA_1767_프로세서연결하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

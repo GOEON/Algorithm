@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BJ_3190_뱀.cpp">
+    <ClCompile Include="BJ_13458_시험감독.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

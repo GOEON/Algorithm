@@ -15,13 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="소스2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="SWEA_1952_수영장.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="SWEA_5653_줄기세포배양.cpp">
+    <ClCompile Include="BJ_3190_뱀.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

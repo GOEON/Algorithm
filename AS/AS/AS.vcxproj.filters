@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BJ_14499_주사위굴리기.cpp">
+    <ClCompile Include="SWEA_1953_탈주범검거.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

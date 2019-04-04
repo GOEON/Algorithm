@@ -15,13 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SWEA_5650_핀볼게임.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="핀볼2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="SWEA_2105_디저트카페.cpp">
+    <ClCompile Include="SWEA_2105_디저트카페_시간단축.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

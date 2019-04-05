@@ -22,8 +22,10 @@
     <ClCompile Include="BJ_5373_큐빙.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="SWEA_2115_벌꿀채취.cpp" />
-    <ClCompile Include="SWEA_2382_미생물격리.cpp">
+    <ClCompile Include="SWEA_2112_보호필름.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="소스.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
   </ItemGroup>

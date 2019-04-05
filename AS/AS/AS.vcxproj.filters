@@ -18,10 +18,10 @@
     <ClCompile Include="BJ_5373_큐빙.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="SWEA_2382_미생물격리.cpp">
+    <ClCompile Include="소스.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="SWEA_2115_벌꿀채취.cpp">
+    <ClCompile Include="SWEA_2112_보호필름.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

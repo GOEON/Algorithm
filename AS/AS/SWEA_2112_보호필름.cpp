@@ -1,14 +1,11 @@
 #include <iostream>
 #include <cstring>
-#include <vector>
-#include <algorithm>
 using namespace std;
 
 int T, ans;
 int d, w, k;
 
-int a[13][20];
-int liquid;
+bool a[13][20];
 
 bool test()
 {
@@ -30,44 +27,33 @@ bool test()
 	return true;
 }
 
-void launch(int row, int c)
+bool dfs(int inject, int depth)
 {
-	for (int i = 0; i < w; i++) a[row][i] = c;
+	if (depth == d) return test();
+	for (int x = 0; x < 3; x++) {
+		if (x == 2) {
+			if(dfs(inject, depth + 1)) return true;
+		}
+		else if (inject > 0) {
+			bool tmp[20];
+			memcpy(tmp, a[depth], sizeof(a[depth]));
+			memset(a[depth], x, sizeof(a[depth]));
+			if (dfs(inject - 1, depth + 1)) return true;
+			memcpy(a[depth], tmp, sizeof(a[depth]));
+		}
+	}
+	return false;
 }
 
-
-void film()
+int film()
 {
-	liquid = 0; // 약품 투입 횟수
-	int b[13][20];
-	int row=0;
-	
-	while (1) {
-		vector<int> v(d);
-		for (int i = 0; i < liquid; i++) { // liquid 수 만큼 1 채우기
-			v[i] = 1;
-		}
+	if (k == 1) return 0;
+	if (test()) return 0;
 
-		int cnt = 0;
-		do {
-			for (int x = 0; x < 2; x++) { // 약품 투입 
-				memcpy(b, a, sizeof(a));
-				for (int i = 0; i < v.size(); i++) { // 약품 투입 위치 
-					if (v[i] == 1) {
-						launch(i, x);
-						cnt += 1;
-						if (cnt == liquid) break; // 약품 투입 끝
-					}
-				}
-				if (test()) return;
-				swap(b, a);
-			}
-		} while (prev_permutation(v.begin(), v.end()));
-
-		if(liquid == 0) // 약품 투입 안 했을 때 검사 
-			if (test()) return;
-		liquid += 1;// 약품 투입 횟수 늘리기
+	for (int i = 1; i < k; i++) {
+		if (dfs(i, 0)) return i;
 	}
+	return k;
 }
 
 int main()
@@ -76,15 +62,14 @@ int main()
 	cin >> T;
 	for (int tc = 1; tc <= T; tc++) {
 		cin >> d >> w >> k;
-		liquid = 0;
+
 		for (int i = 0; i < d; i++) {
 			for (int j = 0; j < w; j++) {
 				cin >> a[i][j];
 			}
 		}
 
-		film();
-		cout << "#" << tc << " " << liquid << '\n';
+		cout << "#" << tc << " " << film() << '\n';
 	}
 	return 0;
 }

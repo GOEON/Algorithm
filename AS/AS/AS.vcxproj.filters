@@ -15,13 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BJ_5373_큐빙.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="소스.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="SWEA_2112_보호필름.cpp">
+    <ClCompile Include="BJ_17136_색종이붙이기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

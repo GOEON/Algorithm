@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BJ_17135_캐슬디펜스.cpp">
+    <ClCompile Include="SWEA_2383_점심식사시간.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

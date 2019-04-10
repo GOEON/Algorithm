@@ -15,7 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SWEA_2383_점심식사시간.cpp">
+    <ClCompile Include="소스_등산로조성.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="소스_무선충전.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BJ_11559_PuyoPuyo.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
